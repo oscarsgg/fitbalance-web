@@ -6,7 +6,11 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-4 md:mb-0">
-            <Scale className="h-6 w-6 text-green-600" />
+            <img
+              src="src/assets/logo1.png"
+              alt="Logo FitBalance"
+              className="h-10 w-10 rounded-full border border-green-600"
+            />
             <span className="ml-2 text-lg font-bold text-green-600">FitBalance</span>
           </div>
           <div className="flex gap-6">

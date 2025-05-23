@@ -1,12 +1,15 @@
-"use client"
-
 import { Scale } from "lucide-react"
 
 export default function Navbar({ onLoginClick }) {
   return (
     <nav className="bg-white border-b border-gray-100 px-4 py-3 flex items-center justify-between">
       <div className="flex items-center">
-        <Scale className="h-8 w-8 text-green-600" />
+        <img
+          src="src/assets/logo1.png"
+          alt="Logo FitBalance"
+          className="h-10 w-10 rounded-full border border-green-600"
+        />
+
         <span className="ml-2 text-xl font-bold text-green-600">FitBalance</span>
       </div>
       <div className="flex items-center gap-4">
